@@ -312,7 +312,7 @@ onMounted(async () => {
   await store.checkAuth()
   if (store.isAuthenticated) {
     await store.fetchRooms()
-    await fetchAllReservations() // ✅ LOAD UNTUK ROOMCARD
+    await fetchAllReservations()
   }
 })
 
@@ -454,7 +454,7 @@ const cancelReservation = async (reservationId) => {
       showMessage(result.message)
       await store.fetchMyReservations()
       await store.fetchRooms()
-      await fetchAllReservations() // ✅ REFRESH SETELAH CANCEL
+      await fetchAllReservations()
     } else {
       showMessage(result.error, true)
     }

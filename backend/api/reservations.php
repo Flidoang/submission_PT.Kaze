@@ -11,7 +11,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'OPTIONS') {
     exit();
 }
 
-// ✅ PASTIKAN session_start() di awal
 session_start();
 
 require_once '../config/database.php';
