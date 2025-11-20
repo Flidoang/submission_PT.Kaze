@@ -18,15 +18,15 @@ Sistem untuk melakukan reservasi ruang rapat dengan validasi jadwal dan authenti
 - Styling: Tailwind CSS
 
 ## Installation BE
-1. Import database `database.sql`
+1. Letakkan folder yang sudah di clone di `htdocs/`
 2. Setup XAMPP/WAMP
-3. Letakkan folder di `htdocs/`
+3. Import database `database.sql` pada mySql/postgreSql (file database nya sudah tersedia dengan nama yang sama dan folder yang sama)
 
 ## Installation FE
 1. buka file frontend/meeting-system/ : `cd frontend/meeting-system`
 2. lakukan installasi terlebih dahulu untuk library yang digunakan : `npm install`
-1. Jalankan Vue dev server: `npm run dev`
-2. Akses: `http://localhost:5173`
+3. Jalankan Vue dev server: `npm run dev`
+4. Akses: `http://localhost:5173`
 
 ## Demo Accounts
 - Email: john@company.com / jane@company.com / bob@company.com  
